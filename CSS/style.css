@@ -1,0 +1,211 @@
+body {
+    background-color: #141416;
+}
+
+header{
+    position: fixed;
+    top:0;left: 0;
+    width: 100%; height: 70px;
+    border-bottom: 2px solid #42434e;
+    box-sizing: border-box;
+    background-color: #141416;
+    z-index: 1;
+}
+
+.header_inner{  
+    position: relative;
+    width: 1340px; height: 70px;
+    margin: 0 auto;
+}
+
+.header_inner > ul {display: flex;}
+.header_inner > ul > li > ul {display: flex;}
+.header_inner > ul > li:nth-of-type(1) {
+    position: absolute;
+    top: 0; left: 0;
+}
+
+.header_inner > ul > li:nth-of-type(1) > a {
+    margin-left: 15px;
+    font-size: 24px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header_inner > ul > li:nth-of-type(2){
+    position: absolute;
+    top: 0; right: 0;
+} 
+
+.header_icon > li:nth-of-type(1) > a {
+    width: 36px; height: 37px;
+    background-image: url(../images/header_img.png);
+    margin-top: 17px;
+    margin-right: 15px;
+}
+
+.header_icon > li:nth-of-type(2) > a {
+    margin-right: 15px;
+    font-size: 14px;
+    line-height: 70px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.video_background{
+    position: relative;
+    width: 1340px;
+    height: 902px;
+    overflow: hidden;
+    margin:0 auto;
+}
+
+.video_text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 900;
+    color: #fff;
+}
+
+.info{
+    position: absolute;
+    top: 110px; left: 15px;
+    width: 270px;
+    height: 752px;
+    margin:0 auto;
+    color:#fff;
+    border:2px solid #42434e;
+    border-radius: 30px;
+    background-color: rgba(35, 39, 47, 0.8);
+    box-sizing: border-box;
+}
+
+.info > ul > li:nth-of-type(1) {
+    width: 131px; height: 135px;
+    margin-left: 69.5px; margin-top: 35px;
+    background-image: url(../images/info_img.png);
+}
+
+.info > ul > li:nth-of-type(2){
+    margin-top: 30px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.info > ul > li:nth-of-type(3){
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+    color: #616270;
+}
+
+.skill{
+    width: 240px; height: 100%;
+    margin:0 auto;
+    margin-top: 15px;
+}
+
+.skill_info{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+.graph { 
+    height: 20px;  
+    background: #42434e; 
+    border-radius: 40px;
+}
+
+.graph > span { 
+    display: block; 
+    padding: 0 10px; 
+    height: 20px; 
+    line-height: 20px; 
+    text-align: right;  
+    border-radius: 40px; 
+    box-sizing: border-box; 
+    color: #616270;
+    background-color: #fff;
+    font-size: 11px;
+}
+
+.graph.stack1 span { animation: stack1 2s 1;}
+.graph.stack2 span { animation: stack2 2s 1;}
+.graph.stack3 span { animation: stack3 2s 1;}
+.graph.stack4 span { animation: stack4 2s 1;}
+.graph.stack5 span { animation: stack5 2s 1;}
+
+@keyframes stack1 {
+    0% { width: 0; color: rgba(255, 255, 255, 0)}
+    100% { width: 85%;}
+}
+
+@keyframes stack2 {
+    0% { width: 0; color: rgba(255, 255, 255, 0)}
+    100% { width: 80%;}
+}
+
+@keyframes stack3 {
+    0% { width: 0; color: rgba(255, 255, 255, 0)}
+    100% { width: 50%;}
+}
+
+@keyframes stack4 {
+    0% { width: 0; color: rgba(255, 255, 255, 0)}
+    100% { width: 70%;}
+}
+
+@keyframes stack5 {
+    0% { width: 0; color: rgba(255, 255, 255, 0)}
+    100% { width: 80%;}
+}
+
+.info > ul > li:nth-of-type(5){
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+.contact{ 
+    color: #616270;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 22px;
+}
+
+.more_info {display: flex;}
+.more_info > li {
+    color: #616270;
+    font-weight: 500;
+    font-size: 14px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+.more_info > li > a {
+    color: #616270;
+    font-weight: 500;
+    font-size: 14px;
+}
+.more_info:nth-of-type(1)>li:nth-of-type(1){
+    width: 22px; height: 22px;
+    background-image: url(../images/github_img.png);
+    margin-right: 10px;
+}
+.more_info:nth-of-type(2)>li:nth-of-type(1){
+    width: 24px; height: 18px;
+    background-image: url(../images/email_img.png);
+    margin-right: 10px;
+}
+.more_info:nth-of-type(3)>li:nth-of-type(1){
+    width: 24px; height: 26px;
+    background-image: url(../images/call_img.png);
+    margin-right: 10px;
+}
+
+
