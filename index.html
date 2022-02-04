@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>최의순의 포트폴리오</title>
-    <link rel="stylesheet" href="CSS/master.css">
+    <link rel="stylesheet" href="CSS/master.css"/>
+    <link rel="stylesheet" href="CSS/swiper-bundle.css"/>
 </head>
 <body>
     <header>
@@ -79,18 +80,70 @@
                 </ul>
             </div>
         </div>
-    </div>
-
+    </div>  
+    
     <div class="works">
+        <div class="works_title">WORKS</div>
         <div class="swiper-container">
             <div class="swiper-wrapper">
-                <div class="swiper-slide">Slide 1</div>
-                <div class="swiper-slide">Slide 2</div>
-                <div class="swiper-slide">Slide 3</div>
-                <div class="swiper-slide">Slide 4</div>
-                <div class="swiper-slide">Slide 5</div>
+
+                <div class="swiper-slide">
+                    <a href="#">
+                        <div class="screen">
+                            <div class="top">AIR SEOUL 웹사이트 리뉴얼</div>
+                            <div class="bottom">Responsive Website</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="screen">
+                            <div class="top">balansa 웹사이트 리뉴얼</div>
+                            <div class="bottom">Responsive Website</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="">
+                        <div class="screen">
+                            <div class="top">Korail 웹사이트 리뉴얼</div>
+                            <div class="bottom">Responsive Website</div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="">
+
+                    </a>
+                </div>
+
+                <div class="swiper-slide">
+                    <a href="">
+
+                    </a>
+                </div>
             </div>
+        </div>
+
+        <script src="js/swiper-bundle.js"></script>
+
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                slidesPerView: 3,
+                spaceBetween: 30,
+                pagination: {
+                    el: '.swiper-pagination',
+                    clickable: true,
+                },
+            });
+        </script>
     </div>
+
+    
+
 
 </body>
 </html>

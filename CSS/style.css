@@ -133,7 +133,7 @@ header{
     box-sizing: border-box; 
     color: #616270;
     background-color: #fff;
-    font-size: 11px;
+    font-size: 13px;
 }
 
 .graph.stack1 span { animation: stack1 2s 1;}
@@ -206,6 +206,19 @@ header{
     width: 24px; height: 26px;
     background-image: url(../images/call_img.png);
     margin-right: 10px;
+}
+
+.works{
+    width: 1340px; height: 100%;
+    margin:0 auto;
+    overflow: hidden;
+}
+.works_title{
+    color: #fff;
+    font-weight: 900;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px; margin-bottom: 30px;
 }
 
 
