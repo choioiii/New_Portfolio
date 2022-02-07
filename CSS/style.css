@@ -238,39 +238,41 @@ header{
     text-align: center;
     margin-top: 30px; margin-bottom: 30px;
 }
-
-.info_more {
-    font-size: 14px;
-    font-weight: 500;
-    padding-right: 15px;
-    padding-left: 15px;
+@media (min-width: 1340px) and (max-width: 1920px){
+    .info_more {
+        font-size: 14px;
+        font-weight: 500;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+    
+    .info_more_ttl{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    
+    .info_more_ttl:nth-of-type(1){padding-top: 35px;}
+    
+    .info_more > div:nth-of-type(2) {
+        text-align: center;
+        color: #616270;
+    }
+    .info_more > div:nth-of-type(4) {
+        text-align: center;
+        color: #616270;
+    }
+    .info_more_date{padding-bottom: 15px;}
+    .info_more_text{
+        padding-bottom: 30px;
+        color: #616270;
+    }
 }
 
-.info_more_ttl{
-    text-align: center;
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-
-.info_more_ttl:nth-of-type(1){padding-top: 35px;}
-
-.info_more > div:nth-of-type(2) {
-    text-align: center;
-    color: #616270;
-}
-.info_more > div:nth-of-type(4) {
-    text-align: center;
-    color: #616270;
-}
-.info_more_date{padding-bottom: 15px;}
-.info_more_text{
-    padding-bottom: 30px;
-    color: #616270;
-}
 
 
 
-/* 모바일 부분 */
+/* 모바일 부분 숨김 */
 @media (min-width: 1340px) and (max-width: 1920px){
     .tb_mb_button{display: none;}
 }
