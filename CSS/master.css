@@ -2,6 +2,7 @@
 @import url( style.css);
 @import url( swiper_style.css);
 @import url( popup_stlye.css);
+@import url( tb_style.css);
 
 .swiper-container {
     width: 100%;
