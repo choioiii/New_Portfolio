@@ -33,9 +33,9 @@ header{z-index: 2000;} /*팝업 화면 출력*/
     position: absolute;
     top: 0; right:0;
     transform: translate(40%,-40%);
-    padding: 20px;
-    background-color: red;
     border-radius: 100%;
+    width: 35px; height: 35px;
+    background-image: url(../images/close_img.png);
 }
 #popup + label + div > label {
     position: absolute;
