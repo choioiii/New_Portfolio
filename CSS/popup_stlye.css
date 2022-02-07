@@ -1,5 +1,5 @@
 
-header{z-index: 2000;} /*팝업 화면 출력*/
+header{z-index: 2;} /*팝업 화면 출력*/
 
 #popup {display: none; z-index: 10000;}
 

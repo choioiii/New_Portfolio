@@ -11,20 +11,20 @@
         margin:0 auto;
     }
 
-    
+    /* pc 버전 */
     .info{
         display: none;
     }
-
+    
     .info_tb_mb{
-        width: 558px; height: auto;
-        margin: 0 auto;
-        z-index: 200;
-        margin-top: 85px;
-        margin-bottom: 15px;
+        width: 558px; height:665px;
         display: flex;
         border:2px solid #42434e;
         border-radius: 30px;
+        box-sizing: border-box;
+        position: absolute;
+        top:50%; right: 50%;
+        transform: translate(50%,-50%);
     }
     
     .info_tb_mb > div:nth-of-type(1) {
