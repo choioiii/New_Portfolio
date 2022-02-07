@@ -213,9 +213,7 @@ header{
     font-weight: 500;
     color: rgba(255, 255, 255, 0.8);
     animation: more_hover 2s infinite alternate;
-    display: inline-block;
-    margin-left: 90px;
-    display: flex;
+    text-align: center;
 }
 
 @keyframes more_hover {
