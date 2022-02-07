@@ -10,8 +10,137 @@
         overflow: hidden;
         margin:0 auto;
     }
+
+    
     .info{
         display: none;
     }
+
+    .info_tb_mb{
+        width: 558px; height: auto;
+        border: 1px solid red;
+        margin: 0 auto;
+        z-index: 200;
+        margin-top: 70px;
+        overflow: auto;
+    }
+    
+    .info_tb_mb > div:nth-of-type(1) {
+        width: 279px; height: 100%;
+        border: 1px solid yellow;
+    }
+    .info_tb_mb > div:nth-of-type(1) > div:nth-of-type(1){
+        width: 131px; height: 135px;
+        background-image: url(../images/info_img.png);
+        margin-left: 78px; margin-top: 15px;
+    }
+    .info_tb_mb > div:nth-of-type(1) > div:nth-of-type(2){
+        margin-top: 15px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+        color: #fff;
+    }
+    .info_tb_mb > div:nth-of-type(1) > div:nth-of-type(3){
+        margin-top: 15px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+        color: #616270;
+    }
+
+    .skill_tb_mb{
+        width: 240px; height: 100%;
+        margin:0 auto;
+        margin-top: 15px;
+    }
+    
+    .skill_info_tb_mb{
+        font-size: 13px;
+        color: #fff;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: 5px;
+    }
+    
+    .graph { 
+        height: 20px;  
+        background: #42434e; 
+        border-radius: 40px;
+    }
+    
+    .graph > span { 
+        display: block; 
+        padding: 0 10px; 
+        height: 20px; 
+        line-height: 20px; 
+        text-align: right;  
+        border-radius: 40px; 
+        box-sizing: border-box; 
+        color: #616270;
+        background-color: #fff;
+        font-size: 13px;
+    }
+    
+    .graph.stack1 span { animation: stack1 2s 1;}
+    .graph.stack2 span { animation: stack2 2s 1;}
+    .graph.stack3 span { animation: stack3 2s 1;}
+    .graph.stack4 span { animation: stack4 2s 1;}
+    .graph.stack5 span { animation: stack5 2s 1;}
+    
+    @keyframes stack1 {
+        0% { width: 0; color: rgba(255, 255, 255, 0)}
+        100% { width: 85%;}
+    }
+    
+    @keyframes stack2 {
+        0% { width: 0; color: rgba(255, 255, 255, 0)}
+        100% { width: 80%;}
+    }
+    
+    @keyframes stack3 {
+        0% { width: 0; color: rgba(255, 255, 255, 0)}
+        100% { width: 50%;}
+    }
+    
+    @keyframes stack4 {
+        0% { width: 0; color: rgba(255, 255, 255, 0)}
+        100% { width: 70%;}
+    }
+    
+    @keyframes stack5 {
+        0% { width: 0; color: rgba(255, 255, 255, 0)}
+        100% { width: 80%;}
+    }
+
+    .license_tb_mb{
+        margin-top: 20px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .license_ttl{
+        color: #fff;
+        font-size: 14px;
+        margin-top: 10;
+    }
+
+    .liense_info {
+        width: 180px; height: 100%;
+        display: inline-flex;
+    }
+    
+    .liense_info > li:nth-of-type(1){
+        margin-right: 10px;
+    }
+    
+    .liense_info > li {
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #616270;
+    }
+
     .works{display: none;}
 }

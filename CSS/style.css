@@ -111,6 +111,7 @@ header{
     margin-top: 30px;
     font-size: 14px;
     text-align: center;
+    font-weight: 500;
 }
 
 .info > ul > li:nth-of-type(3){
@@ -183,28 +184,30 @@ header{
     100% { width: 80%;}
 }
 
-.license{
-    margin-top: 20px;
-    font-size: 14px;
-    text-align: center;
-    font-weight: 500;
-}
-
-.liense_info {
-    width: 180px; height: 100%;
-    display: inline-flex;
-    margin-left: 45px;
-}
-
-.liense_info > li:nth-of-type(1){
-    margin-right: 10px;
-}
-
-.liense_info > li {
-    margin-top: 15px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #616270;
+@media (min-width: 1340px) and (max-width: 1920px){
+    .license{
+        margin-top: 20px;
+        font-size: 14px;
+        text-align: center;
+        font-weight: 500;
+    }
+    
+    .liense_info {
+        width: 180px; height: 100%;
+        display: inline-flex;
+        margin-left: 45px;
+    }
+    
+    .liense_info > li:nth-of-type(1){
+        margin-right: 10px;
+    }
+    
+    .liense_info > li {
+        margin-top: 15px;
+        font-size: 14px;
+        font-weight: 500;
+        color: #616270;
+    }
 }
 
 .more_hover{
@@ -220,6 +223,7 @@ header{
     0% {color: rgba(255, 255, 255, 0.9);}
     100% { color: rgba(255, 255, 255, 0);}
 }
+
 
 .works{
     width: 1340px; height: 100%;
@@ -263,3 +267,11 @@ header{
     padding-bottom: 30px;
     color: #616270;
 }
+
+
+
+/* 모바일 부분 */
+@media (min-width: 1340px) and (max-width: 1920px){
+    .tb_mb_button{display: none;}
+}
+
