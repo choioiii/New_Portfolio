@@ -61,24 +61,19 @@
 
 
 @media (min-width: 768px) and (max-width: 1339px){
-    .swiper-slide > a > .screen > div { 
-        color:#fff; 
-        font-weight: 500; z-index: 2;
-    }
-    .top {
-        width: auto; height: 14px;
-        font-size: 14px; 
+    .top {display: none;}
+    .bottom {display: none;}
+    .tb_mb_text{
+        position: absolute;
+        bottom:15px; left: 15px;
+        color: #fff;
+        font-size: 14px;
         font-weight: 500;
-        position: absolute; 
-        top:65%; left:30px;
-        line-height: 14px; 
+        z-index: 2;
     }
-    .bottom {
-        width: 110px; height: 11px;
+    .tb_mb_text > span {
         font-size: 11px;
-        position: absolute; 
-        bottom:10%; left:30px;
-        line-height: 11px;
+        font-weight: 300;
     }
     .screen::after{
         content: "";

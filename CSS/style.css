@@ -289,5 +289,9 @@ header{
 /* 모바일 부분 숨김 */
 @media (min-width: 1340px) and (max-width: 1920px){
     .tb_mb_button{display: none;}
+
+    .tb_mb_text {display: none;}
 }
+
+
 
