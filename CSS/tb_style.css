@@ -11,6 +11,10 @@
         margin:0 auto;
     }
 
+    .video_background > video{
+        
+    }
+
     /* pc 버전 */
     .info{
         display: none;
@@ -182,5 +186,4 @@
         color: #616270;
     }
 
-    .works{display: none;}
 }
