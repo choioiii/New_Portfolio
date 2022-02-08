@@ -69,13 +69,11 @@
         font-size: 14px; 
         position: absolute; 
         top:70%; left:30px; 
-        transition: all .35s;
     }
     .bottom {
         font-size: 11px;
         position: absolute; 
         bottom:10%; left:30px; 
-        transition: all .35s;
     }
     .screen::before{
         content: "";
