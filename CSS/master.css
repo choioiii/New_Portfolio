@@ -66,17 +66,19 @@
         font-weight: 500; z-index: 2;
     }
     .top {
-        width: auto;
+        width: auto; height: 14px;
         font-size: 14px; 
         font-weight: 500;
         position: absolute; 
-        top:65%; left:30px; 
+        top:65%; left:30px;
+        line-height: 14px; 
     }
     .bottom {
-        width: auto;
+        width: auto; height: 11px;
         font-size: 11px;
         position: absolute; 
-        bottom:10%; left:30px; 
+        bottom:10%; left:30px;
+        line-height: 11px;
     }
     .screen::after{
         content: "";
