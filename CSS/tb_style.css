@@ -12,7 +12,7 @@
     }
 
     .video_background > video{
-        
+        height: 100vh;
     }
 
     /* pc 버전 */
