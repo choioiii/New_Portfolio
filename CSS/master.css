@@ -76,14 +76,13 @@
         position: absolute; 
         bottom:10%; left:30px; 
     }
-    .screen::before{
+    .screen::after{
         content: "";
         position: absolute;
         top:0; left:0;
         width: 100%; height: 100%;
         background-color: rgba(35, 39, 47, 0.6);
         border-radius: 15px;
-        transition: all .35s;
         z-index: 1;
     }
 }
