@@ -67,8 +67,9 @@
     }
     .top {
         font-size: 14px; 
+        font-weight: 500;
         position: absolute; 
-        top:70%; left:30px; 
+        top:67%; left:30px; 
     }
     .bottom {
         font-size: 11px;
