@@ -241,7 +241,19 @@ header{
         text-align: center;
         margin-top: 15px; margin-bottom: 15px;
     }
+}
 
+@media (min-width: 320px) and (max-width: 767px){
+    .works{
+        width: 100%; height: 100%;
+    }
+    .works_title{
+        color: #fff;
+        font-weight: 900;
+        font-size: 36px;
+        text-align: center;
+        margin-top: 15px; margin-bottom: 15px;
+    }
 }
 
 .works_title{

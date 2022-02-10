@@ -4,7 +4,6 @@
 @import url( popup_stlye.css);
 @import url( tb_style.css);
 @import url( tb_side_menu_style.css);
-@import url( mb_style.css);
 
 .swiper-container {
     width: 100%;
@@ -12,6 +11,7 @@
     margin-bottom: 30px;
 }
 .swiper-slide {overflow: hidden;}
+
 
 .screen{
     max-width: 427px;
@@ -23,6 +23,20 @@
     display: block;
     width: 100%;
 }
+
+@media (min-width: 768px) and (max-width: 1920px){
+    .swiper-container_mb{ display: none;}
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .swiper-container{ display: none;}
+    .swiper-container_mb{
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 20px;
+    }
+}
+
 
 @media (min-width: 1340px) and (max-width: 1920px){
     .swiper-slide > a > .screen > div { 
@@ -60,7 +74,6 @@
     }
 }
 
-
 @media (min-width: 768px) and (max-width: 1339px){
     .top {display: none;}
     .bottom {display: none;}
@@ -75,6 +88,32 @@
     .tb_mb_text > span {
         font-size: 11px;
         font-weight: 500;
+    }
+    .screen::after{
+        content: "";
+        position: absolute;
+        top:0; left:0;
+        width: 100%; height: 100%;
+        background-color: rgba(35, 39, 47, 0.6);
+        border-radius: 15px;
+        z-index: 1;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .top {display: none;}
+    .bottom {display: none;}
+    .tb_mb_text{
+        position: absolute;
+        bottom:15px; left: 15px;
+        color: #fff;
+        font-size: 12px;
+        font-weight: 500;
+        z-index: 2;
+    }
+    .tb_mb_text > span {
+        font-size: 9px;
+        font-weight: 300;
     }
     .screen::after{
         content: "";
