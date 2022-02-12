@@ -108,6 +108,7 @@
 @media (min-width: 768px) and (max-width: 1339px){
     .swiper-container{ display: none;}
     .swiper-container_mb{display: none;}
+    .swiper-container_tb {margin-left: 15px; margin-right: 15px;}
     .swiper-container_tb .screen{
         max-width: 427px;
         width: 100%;
