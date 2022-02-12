@@ -13,13 +13,14 @@
 
     .video_background > video{
         height: 100vh;
-    }
-
-    /* pc 버전 */
-    .info{
-        display: none;
+        transform: scale(1.5);
     }
     
+    /* pc 버전 */
+    .info{ display: none;}
+    
+    .icon-scroll { display: none;}
+
     .info_tb_mb{
         width: 558px; height:680px;
         display: flex;
@@ -217,9 +218,9 @@
     }
 
     /* pc 버전 */
-    .info{
-        display: none;
-    }
+    .info{ display: none;}
+
+    .icon-scroll { display: none;}
 
     .video_text{
         width: 280px;
