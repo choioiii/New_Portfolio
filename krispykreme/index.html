@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>크리스피크림도넛</title>
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="stylesheet" href="CSS/swiper-bundle.css" />
+    <script src="js/menu_script.js" defer></script>
+  </head>
+  <body>
+    <header id="main_header">
+      <div class="inner">
+        <div class="pc_only_sns">
+          <ul>
+            <li><a href="#">FACEBOOK</a></li>
+            <li><a href="#">INSTAGRAM</a></li>
+            <li><a href="#">TWITTER</a></li>
+          </ul>
+        </div>
+
+        <div class="logo">
+          <a href="#">logo</a>
+        </div>
+
+        <div class="pc_only_login">
+          <ul>
+            <li><a href="#">로그인</a></li>
+            <li><a href="#">회원가입</a></li>
+            <li><a href="#">ENGLISH</a></li>
+          </ul>
+        </div>
+      </div>
+      <label for="toggle_menu" class="menu">메뉴버튼</label>
+    </header>
+
+    <input type="checkbox" id="toggle_menu" />
+
+    <nav id="main_nav">
+      <ul>
+        <li>
+          <a href="#">MENU</a>
+          <h3>MENU</h3>
+          <ul class="sub_nav">
+            <li><a href="#">신제품/인기제품</a></li>
+            <li><a href="#">이달의메뉴</a></li>
+            <li><a href="#">도넛</a></li>
+            <li><a href="#">커피/음료</a></li>
+            <li><a href="#">아이스크림/프로즌</a></li>
+            <li><a href="#">브랜딩 제품소개</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">STORE</a>
+          <h3>STORE</h3>
+          <ul class="sub_nav">
+            <li><a href="#">매장찾기</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">HOME SERVICE</a>
+          <h3>HOME SERVICE</h3>
+          <ul class="sub_nav">
+            <li><a href="#">홈서비스</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">EVENT</a>
+          <h3>EVENT</h3>
+          <ul class="sub_nav">
+            <li><a href="#">진행 이벤트</a></li>
+            <li><a href="#">종료 이벤트</a></li>
+            <li><a href="#">당첨자 발표</a></li>
+            <li><a href="#">제휴 서비스</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">BRAND</a>
+          <h3>BRAND</h3>
+          <ul class="sub_nav">
+            <li><a href="#">도넛극장</a></li>
+            <li><a href="#">브랜드스토리</a></li>
+            <li><a href="#">브랜드영상</a></li>
+            <li><a href="#">공지사항</a></li>
+          </ul>
+        </li>
+
+        <li>
+          <a href="#">SURVEY</a>
+          <h3>SURVEY</h3>
+          <ul class="sub_nav">
+            <li><a href="#">설문조사</a></li>
+            <li><a href="#">설문조사 운영점</a></li>
+          </ul>
+        </li>
+      </ul>
+
+      <label class="btn_close" for="toggle_menu"></label>
+    </nav>
+
+    <section id="visual_img">
+      <!-- Swiper -->
+          <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="#">
+                  <img class="big" src="images/swiper_img01.png" alt="">
+                  <img class="small" src="images/swiper_img_mb01.png" alt="">
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="#">
+                  <img class="big" src="images/swiper_img02.png" alt="">
+                  <img class="small" src="images/swiper_img_mb02.png" alt="">
+                </a>
+              </div>
+            </div>
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+          </div>
+    
+          <!-- Swiper JS -->
+          <script src="js/swiper-bundle.js"></script>
+    
+          <!-- Initialize Swiper -->
+          <script>
+            var swiper = new Swiper('.swiper-container', {
+              cssMode: true,
+              navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+              },
+              pagination: {
+                el: '.swiper-pagination'
+              },
+              mousewheel: true,
+              keyboard: true,
+            });
+          </script>
+        </section>
+
+    <div id="menu">
+      <h1><strong>KrispyKreme </strong>MENU</h1>
+
+      <ul>
+        <li>
+            <ul>
+              <li><a href="#">이미지</a></li>
+              <li><a href="#">도넛</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+              <li><a href="#">이미지</a></li>
+              <li><a href="#">커피/음료</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+              <li><a href="#">이미지</a></li>
+              <li><a href="#">아이스크림/프로즌</a></li>
+            </ul>
+        </li>
+
+        <li>
+            <ul>
+              <li><a href="#">이미지</a></li>
+              <li><a href="#">브랜딩 제품</a></li>
+            </ul>
+        </li>       
+      </ul>
+
+    </div>
+
+    <div id="search">
+      <div>
+        달콤한 휴식을 취할수있는<br>크리스피 크림 도넛 매장을 찾아보세요
+        <a href="#">button</a>
+      </div> 
+    </div>
+
+  </body>
+</html>

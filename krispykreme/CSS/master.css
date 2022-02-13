@@ -1,0 +1,24 @@
+@import url( common.css);
+@import url( header_style.css);
+@import url( header_tb_style.css);
+@import url( style.css);
+
+
+#visual_img{
+    position: relative;  
+}
+
+.swiper-slide > a > img{ width: 100%;}
+
+
+@media (min-width: 980px) and (max-width: 1920px){
+    #visual_img{margin-top: 51px;}
+}
+
+@media (min-width: 768px) and (max-width: 1920px){
+    .swiper-slide .small {display: none;}
+}
+
+@media (min-width: 320px) and (max-width: 767px){
+    .swiper-slide .big {display: none;}
+}
